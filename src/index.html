@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="src/assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>TailwindCard - Sebastián Prieto</title>
+  </head>
+  <body class="font-hanken bg-gray-100 py-8">
+    <section class="w-[90%] max-w-md mx-auto bg-white shadow-2xl md:flex md:rounded-2xl md:max-w-4xl">
+      <article class="bg-indigo-400 rounded-b-2xl p-10 text-white text-center md:rounded-2xl md:w-1/2 md:grid md:content-center">
+        <p class="text-xl font-bold">Tu resultado</p>
+        <div class="w-36 aspect-square bg-indigo-500 rounded-full mx-auto my-8 grid content-center md:w-56">
+          <p class="text-5xl font-bold mb-2 md:text-7xl">76</p>
+          <p class="font-bold text-gray-200"> de 100</p>
+        </div>
+        <h3 class="text-3xl mb-4 font-bold">¡Genial!</h3>
+        <p class="text-white">Tuviste un porcentaje más alto que el 65% de las personas que han realizado este test.</p>
+      </article>
+
+    <article class="p-10 grid gap-6 md:w-1/2">
+      <h3 class="text-xl font-bold">Resumen</h3>
+      <div class="bg-red-100 rounded-xl flex py-5 px-6 items-center">
+        <img src="./assets/images/icon-reaction.svg" alt="">
+        <p class="ml-3 text-lg text-light-red">Reacción</p>
+        <p class="ml-auto font-bold text-dark-gray-blue">
+          <span>80</span>
+          <span class="text-slate-500">/100</span>
+        </p>
+      </div>
+
+      <div class="bg-orange-100 rounded-xl flex py-5 px-6 items-center">
+        <img src="./assets/images/icon-memory.svg" alt="">
+        <p class="ml-3 text-lg text-orange-500">Memoria</p>
+        <p class="ml-auto font-bold text-dark-gray-blue">
+          <span>92</span>
+          <span class="text-slate-500">/100</span>
+        </p>
+      </div>
+
+      <div class="bg-emerald-100 rounded-xl flex py-5 px-6 items-center">
+        <img src="./assets/images/icon-verbal.svg" alt="">
+        <p class="ml-3 text-lg text-emerald-500">Verbal</p>
+        <p class="ml-auto font-bold text-dark-gray-blue">
+          <span>61</span>
+          <span class="text-slate-500">/100</span>
+        </p>
+      </div>
+
+      <div class="bg-blue-100 rounded-xl flex py-5 px-6 items-center">
+        <img src="./assets/images/icon-visual.svg" alt="">
+        <p class="ml-3 text-lg text-blue-500">Visual</p>
+        <p class="ml-auto font-bold text-dark-gray-blue">
+          <span>72</span>
+          <span class="text-slate-500">/100</span>
+        </p>
+      </div>
+
+      <a href="https://www.youtube.com/shorts/KKlT6kReCZs" target="_blank" class="bg-indigo-700 text-white font-bold rounded-full py-5 text-center hover:bg-indigo-600">Continuar</a>
+
+    </article>
+  </section>
+  </body>
+</html>
